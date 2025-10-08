@@ -11,7 +11,7 @@ import sys
 
 # Page config
 st.set_page_config(
-    page_title="DSS Template Auto-Fill",
+    page_title="QUADGEN DSS Template Auto-Fill",
     page_icon="📡",
     layout="wide"
 )
@@ -49,7 +49,7 @@ st.markdown("""
 from utils import find_column, safe_get_value, safe_load_sheet, process_template
 
 # Header
-st.markdown('<div class="main-header">📡 DSS Template Auto-Fill System</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-header">📡 QUADGEN dss Template Auto-Fill System</div>', unsafe_allow_html=True)
 st.markdown('<div class="sub-header">Telecommunications Expert System for Dynamic Spectrum Sharing Activation</div>', unsafe_allow_html=True)
 
 st.markdown("---")
