@@ -40,6 +40,7 @@ st.markdown("""
         font-size: 0.9rem;
         max-height: 500px;
         overflow-y: auto;
+        color: #000000;
     }
     </style>
 """, unsafe_allow_html=True)
